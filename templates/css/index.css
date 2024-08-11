@@ -1,0 +1,181 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.oswald#divbtn {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+body {
+    background-image: url(https://i.pinimg.com/originals/c6/33/c2/c633c20ede82f0e0ced7d570dbe3a1f3.gif);
+    background-size:contain;
+    font-family: Arial, sans-serif;
+    background-color: hsl(185, 100%, 97%);
+    color: #7c7b7b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.kolxi_hna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+    background-color: #45478b9c;
+    box-shadow: 20px 18px 10px rgba(58, 55, 55, 0.466);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input,
+textarea,
+button,
+select {
+    font-family: inherit;
+    font-size: medium;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+    color: #fbff00da;
+}
+
+p {
+    margin-bottom: 10px;
+    color: #ffbb00;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling the form elements */
+.input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inputpanel {
+    background-image: url(https://i.pinimg.com/originals/07/de/a1/07dea1d42095c4cf37cc03dc597d7284.gif);
+    background-color: #00000073;
+    color: white;
+    resize: none;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button#btn {
+    width: 18%;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 5px 0;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 114px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.divbtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button#btn:hover {
+    background-color: #8bbbf0;
+}
+
+.font {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.font p {
+    margin-bottom: 5px;
+}
+
+.selector {
+    background-image: url(https://i.pinimg.com/originals/0f/2e/65/0f2e65821f841cca472fa39e596631a1.gif);
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #00000082;
+    color: white;
+    cursor: pointer;
+}
+
+.selector .option {
+    padding: 10px;
+}
+
+/* Styling the result panel */
+.resultpanel {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.yy {
+    color: #ce1cce;
+}
+
+pre {
+    color: #ffffff;
+    background-color: #0b0b16ad;
+    padding: 20px;
+    border-radius: 4px;
+    overflow: auto;
+    min-height: 150px;
+}
+
+hr.page {
+    border: 0;
+    height: 1px;
+    background: #d1c8d1;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .kolxi.hna {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .inputpanel {
+        height: 80px;
+    }
+    button#btn {
+        width: 25%;
+    }
+}
